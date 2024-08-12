@@ -1,0 +1,36 @@
+.footer-home{
+    background-color: #242626;
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-home .contenedor-botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.footer-home .contenedor-botones button{
+    color: #ece378;
+}
+
+.footer-home .contenedor-botones button svg{
+    color:#ece378 ;
+}
+

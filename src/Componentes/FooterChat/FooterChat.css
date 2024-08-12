@@ -1,0 +1,74 @@
+.contenedor-footer {
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin: 5px;
+    margin-top: 0;
+    background-color: black;
+    background-image: url('../../../public/imagenes/estrellas.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor-footer .contenedor-izquierda {
+    background-color: #242626;
+    border-radius: 50px;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.contenedor-footer .contenedor-izquierda svg {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    margin: 0;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    width: 60%;
+    outline: none;
+    background: none;
+    padding: 0;
+    box-shadow: none;
+    appearance: none; /* Para algunos navegadores */
+  -webkit-appearance: none; /* Para Safari y Chrome */
+  -moz-appearance: none; /* Para Firefox */
+}
+input:focus {
+    outline: none; 
+    box-shadow: none; 
+}
+
+.contenedor-footer .btn-enviar {
+    width: 50px;
+    height: 50px;
+    background-color: #ece378 ;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+}
+
+.contenedor-footer .btn-enviar svg {
+    font-size: 1.2rem;
+    color: black;
+}

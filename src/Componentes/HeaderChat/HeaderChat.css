@@ -1,0 +1,85 @@
+.contenedor-header {
+    background-color: #242626;
+    width: 100%;
+    color: white;
+    font-size: 19px; 
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.contenedor-header .contenedor-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+/* CONTENEDOR IZQUIERDA FLEX */
+.contenedor-header .contenedor-nav .contenedor-izquierda {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* FLECHA SVG CON LINK */
+.contenedor-header .contenedor-nav .contenedor-izquierda .flecha svg{
+        font-size: 2rem;
+        color: #ece378;
+}
+
+/* NOMBRE CON LINK*/
+.contenedor-header .contenedor-nav .contenedor-izquierda .nombre{
+    text-decoration: none;
+    color: inherit;
+    gap: 10px;
+    white-space: nowrap;
+    /* muestra el texto sin saltos de linea */
+    overflow: hidden;
+    /* Oculta el texto que no cabe en el contenedor */
+    text-overflow: ellipsis;
+    /* Muestra '...' al final si el texto es muy largo */
+    width: 50%;
+    padding-left: 10px;
+    text-transform: lowercase;
+}
+
+/* IMAGEN */
+.contenedor-header .contenedor-nav .contenedor-izquierda .contenedor-img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-header .contenedor-nav .contenedor-izquierda .contenedor-img img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor-header .contenedor-nav .contenedor-derecha {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+svg {
+    font-size: 1.5rem;
+    color:#ece378 ;
+}
+
+
+
+button {
+    background: none;
+    border: none;
+}

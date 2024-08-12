@@ -1,0 +1,40 @@
+.main-informacion{
+    width: 100%;
+    color: white;
+    font-size: 19px; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 270px;
+}
+
+.main-informacion .info{
+    background-color: #242626;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.main-informacion .info p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-informacion .info span{
+    color: #92928f;
+}
+
+.main-informacion .info .rojo{
+    color: rgb(255, 36, 36);
+}
+
+.main-informacion .info .rojo svg{
+    color: rgb(255, 36, 36);
+}

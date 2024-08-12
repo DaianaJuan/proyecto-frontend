@@ -1,0 +1,66 @@
+.contenedor-header-informacion {
+    background-image: url('../../../public/imagenes/stars.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #242626;
+    width: 100%;
+    color: white;
+    font-size: 19px; 
+    padding: 8px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.contenedor-header-informacion .contenedor-nav-informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height:250px;
+}
+
+.contenedor-header-informacion .contenedor-nav-informacion .flex-icos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.contenedor-header-informacion .contenedor-nav-informacion .flex-nombre-img{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.contenedor-header-informacion .contenedor-nav-informacion .flex-nombre-img .contenedor-img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-header-informacion .contenedor-nav-informacion .flex-nombre-img .contenedor-img img{
+    width: 100%;
+}
+
+.contenedor-header-informacion .contenedor-nav-informacion .flex-nombre-img .nombreInfo{
+    font-family: 'StarWarsFont';
+    text-transform: lowercase;
+    font-size: 1.5rem;
+    color: #FCC802;
+}
+
+
+.flecha-volver svg{
+    font-size: 2rem;
+    color: #ece378;
+}

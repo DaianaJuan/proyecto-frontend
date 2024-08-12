@@ -1,0 +1,109 @@
+.cont-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.contacto-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+
+.cont-img {
+    margin-right: 10px;
+}
+
+.cont-img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid grey;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-info-contacto {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    width: calc(100% - 75px);
+    /* Ajusta el ancho para que el mensaje y la última conexión se alineen correctamente */
+}
+
+.info-contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.nombre-contacto {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ultima-conexion {
+    font-size: 12px;
+    color: gray;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Añade puntos suspensivos (...) al final si el texto desborda */
+    margin-right: 10px;
+}
+
+.ultimo-mensaje {
+    font-size: 14px;
+    color: #9b9b9b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+    width: calc(100% - 65px);
+}
+
+
+/* Media Query para pantallas entre 320px y 650px */
+/*@media (min-width: 320px) and (max-width: 650px) {
+    .cont-contacto {
+        flex-direction: row;
+        /* Mantiene los elementos en fila en pantallas más grandes 
+    }
+
+    .flex-info-contacto {
+        margin-left: 10px;
+        /* Espacio entre la imagen y la información del contacto 
+    }
+
+    .info-contacto {
+        flex-direction: row;
+        /* Mantiene el nombre y la última conexión en fila 
+        justify-content: space-between;
+        /* Alinea el nombre y la última conexión a los extremos 
+        width: 100%;
+        /* Asegura que la información del contacto ocupe el ancho completo 
+    }
+
+    .ultimo-mensaje {
+        margin-top: 5px;
+        /* Añade margen arriba para separar el mensaje del nombre y la última conexión 
+        text-align: left;
+        /* Alinea el último mensaje a la izquierda
+        width: 100%;
+        /* Asegura que el mensaje ocupe el ancho completo del contenedor 
+    }
+}
+*/
