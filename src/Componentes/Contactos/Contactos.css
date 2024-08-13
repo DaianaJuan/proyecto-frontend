@@ -6,7 +6,7 @@
     flex-wrap: wrap;
 }
 
-.contacto-link {
+.cont-contacto .contacto-link {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -14,11 +14,12 @@
     width: 100%;
 }
 
-.cont-img {
+/* IMAGEN DE CONTACTO */
+.cont-contacto .contacto-link .cont-img {
     margin-right: 10px;
 }
 
-.cont-img img {
+.cont-contacto .contacto-link .cont-img img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -30,7 +31,9 @@
     align-items: center;
 }
 
-.flex-info-contacto {
+/* CONTENEDOR FLEX INFO CONTACTO */
+
+.cont-contacto .contacto-link .flex-info-contacto {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -39,14 +42,18 @@
     /* Ajusta el ancho para que el mensaje y la última conexión se alineen correctamente */
 }
 
-.info-contacto {
+/* INFO CONTACTO */
+
+.cont-contacto .contacto-link .flex-info-contacto .info-contacto {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5px;
 }
 
-.nombre-contacto {
+/* NOMBRE CONTACTO */
+
+.cont-contacto .contacto-link .flex-info-contacto .nombre-contacto {
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -55,7 +62,9 @@
     text-overflow: ellipsis;
 }
 
-.ultima-conexion {
+/* ULTIMA CONEXION */
+
+.cont-contacto .contacto-link .flex-info-contacto .ultima-conexion {
     font-size: 12px;
     color: gray;
     white-space: nowrap;
@@ -65,7 +74,9 @@
     margin-right: 10px;
 }
 
-.ultimo-mensaje {
+/* ULTIMO MENSAJE */
+
+.cont-contacto .contacto-link .flex-info-contacto .ultimo-mensaje {
     font-size: 14px;
     color: #9b9b9b;
     white-space: nowrap;
@@ -75,35 +86,3 @@
     width: calc(100% - 65px);
 }
 
-
-/* Media Query para pantallas entre 320px y 650px */
-/*@media (min-width: 320px) and (max-width: 650px) {
-    .cont-contacto {
-        flex-direction: row;
-        /* Mantiene los elementos en fila en pantallas más grandes 
-    }
-
-    .flex-info-contacto {
-        margin-left: 10px;
-        /* Espacio entre la imagen y la información del contacto 
-    }
-
-    .info-contacto {
-        flex-direction: row;
-        /* Mantiene el nombre y la última conexión en fila 
-        justify-content: space-between;
-        /* Alinea el nombre y la última conexión a los extremos 
-        width: 100%;
-        /* Asegura que la información del contacto ocupe el ancho completo 
-    }
-
-    .ultimo-mensaje {
-        margin-top: 5px;
-        /* Añade margen arriba para separar el mensaje del nombre y la última conexión 
-        text-align: left;
-        /* Alinea el último mensaje a la izquierda
-        width: 100%;
-        /* Asegura que el mensaje ocupe el ancho completo del contenedor 
-    }
-}
-*/

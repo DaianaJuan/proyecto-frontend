@@ -5,4 +5,9 @@
     flex-direction: column;
     overflow: scroll;
     margin-top: 80px;
+    scroll-behavior: inherit;
+    scroll-behavior: initial;
+    scroll-behavior: unset;
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }

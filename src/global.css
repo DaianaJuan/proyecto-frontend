@@ -14,30 +14,44 @@
     font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+/* MEDIA QUERY PARA PANTALLAS MENORES A 650PX */
 @media screen and (min-width: 650px) {
+
+    /* CONTACTOS */
+    .cont-img {
+        margin-right: 15px;
+    }
 
     .cont-img img {
         width: 70px;
         height: 70px;
     }
-    .cont-img {
-        margin-right: 15px;
-    }
+
     .nombre-contacto {
         font-size: 18px;
     }
+
     .ultimo-mensaje {
         font-size: 16px;
     }
+
+    .cont-contactos {
+        margin-bottom: 50px;
+    }
+
+    /* HEADER CHAT */
+
     .contenedor-header .contenedor-nav {
         height: 100px;
     }
+
     .contenedor-header .contenedor-nav .contenedor-izquierda {
         width: 70%;
     }
+
     .contenedor-header .contenedor-nav .contenedor-izquierda .nombre {
+        text-transform: lowercase;
         gap: 30px;
-        white-space: nowrap;
         overflow: none;
         text-overflow: none;
         padding-left: 20px;
@@ -45,106 +59,142 @@
         font-size: 20px;
         color: #ece378;
     }
+
     .contenedor-header .contenedor-nav .contenedor-izquierda .contenedor-img {
         width: 80px;
         height: 80px;
     }
+
     .contenedor-header .contenedor-nav .contenedor-derecha {
         gap: 30px;
     }
+
     svg {
         font-size: 1.7rem;
     }
+
     .contenedor-header .contenedor-nav .contenedor-izquierda .flecha svg {
         font-size: 2.5rem;
     }
+
     .flecha-volver svg {
         font-size: 2.5rem;
     }
+
+    /* FOOTER CHAT */
+
     .contenedor-footer .contenedor-izquierda {
         height: 70px;
     }
+
     .contenedor-footer .contenedor-izquierda svg {
         font-size: 1.7rem;
     }
+
     .contenedor-footer .btn-enviar {
         width: 70px;
         height: 70px;
     }
+
     .contenedor-footer .btn-enviar svg {
         font-size: 1.8rem;
     }
+    
+    /* LISTA MENSAJES */
+
     .contenedor-lista-mensajes {
         margin-top: 100px;
     }
+
+    /* MENSAJES */
+
     .contenedor-mensaje .mensaje-yo {
         margin-left: 29%;
     }
-    .cont-contactos{
-        margin-bottom: 50px;
-    }
 }
 
+/* MEDIA QUERY PARA PANTALLAS MAYORES A 1050PX */
 @media screen and (min-width: 1050px) {
+
+    /* HEADER HOME CONTACTOS */
 
     .contenedor-header-home .nombre-app {
         font-size: 30px;
         padding-left: 20px;
     }
+
     .contenedor-header-home .input-buscador {
         background-color: #242626;
         height: 45px;
         padding: 0 20px;
     }
-    .contacto-link {
-        gap: 20px;
-    }
-    .cont-contacto {
-        padding: 7px;
-    }
-    .cont-img img {
-        width: 80px;
-        height: 80px;
-    }
-    .flex-info-contacto {
-        width: 90%;
-        align-items: space-between;
-    }
-    .cont-contacto .info-contacto .nombre-contacto {
-        font-size: 1.3rem;
-    }
-    .cont-contacto .info-contacto .ultima-conexion {
-        color: #a3a3a3;
-        font-size: 1rem;
-    }
-    .cont-contacto .ultimo-mensaje {
-        padding-top: 20px;
-        font-size: 1.2rem;
-    }
-    .cont-contactos {
-        margin-top: 150px;
-        margin-bottom: 100px;
-    }
-    .cont-contactos {
-        height: 100vh;
-        overflow-y: auto;
-        padding: 10px;
-        padding-top: 20px;
-    }
-    .footer-home .contenedor-botones {
-        justify-content: space-around;
-    }
-    .contenedor-mensaje {
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    .contenedor-lista-mensajes {
-        gap: 15px;
-    }
+
     .contenedor-header-home nav {
         background-image: url('../../../public/imagenes/stars.jpg');
         background-repeat: repeat;
         background-position: center;
         background-size: cover;
+    }
+
+    /* CONTACTOS */
+
+    .contacto-link {
+        gap: 20px;
+    }
+
+    .cont-contacto {
+        padding: 7px;
+    }
+
+    .cont-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .flex-info-contacto {
+        width: 90%;
+        align-items: space-between;
+    }
+
+    .cont-contacto .info-contacto .nombre-contacto {
+        font-size: 1.3rem;
+    }
+
+    .cont-contacto .info-contacto .ultima-conexion {
+        color: #a3a3a3;
+        font-size: 1rem;
+    }
+
+    .cont-contacto .ultimo-mensaje {
+        padding-top: 20px;
+        font-size: 1.2rem;
+    }
+
+    /* LISTA CONTACTOS */
+
+    .cont-contactos {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        height: 100vh;
+        padding: 10px;
+    }
+
+    /* FOOTER HOME CONTACTOS */
+
+    .footer-home .contenedor-botones {
+        justify-content: space-around;
+    }
+
+    /* MENSAJES */
+
+    .contenedor-mensaje {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    /* LISTA MENSAJES */
+
+    .contenedor-lista-mensajes {
+        gap: 15px;
     }
 }
