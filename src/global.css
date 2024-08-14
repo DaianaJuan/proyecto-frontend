@@ -215,6 +215,7 @@
 
     .contenedor-lista-mensajes {
         gap: 15px;
+        margin-bottom: 80px;
     }
 }
 
