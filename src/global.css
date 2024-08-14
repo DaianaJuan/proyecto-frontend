@@ -36,7 +36,7 @@
     }
 
     .cont-contactos {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     /* HEADER CHAT */
@@ -176,7 +176,26 @@
         margin-top: 150px;
         margin-bottom: 100px;
         height: 100vh;
-        padding: 10px;
+        padding: 30px;
+    }
+
+    /* CONTACTOS */
+    
+    .cont-contacto .contacto-link .cont-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cont-contacto .contacto-link .flex-info-contacto .nombre-contacto{
+        font-size: 1.3rem;
+    }
+
+    .cont-contacto .contacto-link .flex-info-contacto .ultimo-mensaje {
+        font-size: 1.1rem;
+    }
+
+    .cont-contacto .contacto-link .flex-info-contacto .ultima-conexion {
+        font-size: 1rem;
     }
 
     /* FOOTER HOME CONTACTOS */
@@ -198,3 +217,34 @@
         gap: 15px;
     }
 }
+
+@media screen and (min-width: 1400px){
+
+    /* CONTACTOS */
+
+    .cont-contactos{
+        padding: 50px;
+    }
+
+    /* LISTA MENSAJES */
+
+    .contenedor-lista-mensajes{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /* HEADER CHAT */
+
+    .contenedor-header{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* MENSAJES */
+
+    .contenedor-mensaje .contenedor-mensaje-otro .autor{
+        font-size: 18px;
+    }
+
+}
+

@@ -25,11 +25,11 @@ const HomeContactos = () => {
     }
 
     return (
-        <>
+        <> 
             <HeaderHomeContactos search={search} onSearchChange={handleSearchChange} />
-            <ListaContactos contactos={contactos} search={search} />
+            <ListaContactos contactos={contactos} search={search}/>
             <FooterHomeContactos />
-        </>
+        </>    
     )
 }
 

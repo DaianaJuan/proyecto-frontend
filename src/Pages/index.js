@@ -3,4 +3,8 @@ import Chat from "./Chat/Chat";
 import Informacion from "./Informacion/Informacion";
 
 
-export { HomeContactos, Chat, Informacion }
+export { 
+    HomeContactos, 
+    Chat, 
+    Informacion 
+}

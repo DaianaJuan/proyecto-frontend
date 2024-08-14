@@ -3,8 +3,8 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
     margin-top: 80px;
+    overflow: auto;
     scroll-behavior: inherit;
     scroll-behavior: initial;
     scroll-behavior: unset;

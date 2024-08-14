@@ -1,6 +1,6 @@
-.cont-contactos {
-    height: 100%;
-    width: 100%;
+/*.cont-contactos {
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     overflow: scroll;
@@ -10,7 +10,22 @@
     gap: 15px;
     overflow: hidden;
     margin-top: 130px;
+    background-color: blue;
+}*/
+
+.cont-contactos{
+    max-height: 740px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    overflow: auto;
     scroll-behavior: inherit;
+    scroll-behavior: initial;
     scroll-behavior: unset;
     scroll-behavior: auto;
+    scroll-behavior: smooth;
+    margin-top: 130px;
+    padding: 10px;
+    gap: 15px;
+    margin-bottom: 100px;;
 }
