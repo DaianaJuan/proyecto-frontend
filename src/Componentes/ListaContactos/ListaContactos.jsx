@@ -12,7 +12,6 @@ import { useParams } from 'react-router-dom';
  * @return {JSX.Element} El elemento JSX que representa la lista de contactos.
  */
 const ListaContactos = ({ contactos, search }) => {
-    const lista_contactos = obtenerContactos()
     const [contactosFiltrados, setContactosFiltrados] = useState(contactos);
 
     const { id } = useParams();

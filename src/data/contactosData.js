@@ -346,7 +346,7 @@ export const contactos = [
 
 
 /* 
- {
+{
         nombre: 'Chewbacca',
         thumbnail: '/imagenes/contactos/Chewbacca.jpg',
         ultima_conexion: 'hoy 08:45 a. m.',

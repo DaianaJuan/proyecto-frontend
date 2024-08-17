@@ -5,7 +5,7 @@ import { MdOutlinePhone } from "react-icons/md";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import './HeaderChat.css'
 import { Link, useParams } from 'react-router-dom';
-import { obtenerContactoPorId } from '../../helpers/contactos'
+import { obtenerContactoPorId, obtenerContactos } from '../../helpers/contactos'
 
 /**
  * A functional component that renders the chat header.
@@ -15,7 +15,7 @@ import { obtenerContactoPorId } from '../../helpers/contactos'
  * @return {JSX.Element} The JSX element representing the chat header.
  */
 const HeaderChat = () => {
-
+    obtenerContactos()
     const { id } = useParams();  // Obtenemos el ID del contacto desde la URL
     const contacto = obtenerContactoPorId(id);  // Obtenemos el contacto por su ID
 

@@ -1,4 +1,4 @@
-import { contactos } from "../data/contactosData";
+import { contactos } from '../data/contactosData';
 
 /**
  * Guarda una lista de contactos en el almacenamiento local.
@@ -39,7 +39,10 @@ export const obtenerContactos = () => {
  */
 export const obtenerContactoPorId = (id) => {
     const contactos = obtenerContactos() 
-    return contactos.find((contacto) => contacto.id_autor === Number(id))
+    console.log('Contactos:', contactos)
+    const contacto = contactos.find((contacto) => contacto.id_autor === Number(id))
+    console.log('Contacto encontrado:', contacto)
+    return contacto
 }
 
 /*
