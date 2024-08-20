@@ -179,7 +179,7 @@ export const obtenerContactoPorId = (id) => {
 
 /*
 
-por las dudas que quiera agregar...
+por las dudas que
 
 const crearContacto = (nuevo_contacto) => {
     const lista_contactos = obtenerContactos()
