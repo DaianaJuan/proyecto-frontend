@@ -1,0 +1,43 @@
+.contenedor-mensaje{
+    color: white;
+    margin: 5px 0;
+}
+.contenedor-mensaje .contenedor-mensaje-otro{
+    width: 70%;
+    background-color: #424445; 
+    border-radius: 10px;
+    padding: 7px;
+    margin: 0 0 0 7px;
+}
+
+.contenedor-mensaje .contenedor-mensaje-otro .autor{
+    padding-bottom: 7px;
+    font-size: 17px;
+}
+
+.contenedor-mensaje .mensaje-yo{
+    width: 70%;
+    background-color:#75610f;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 25%;
+}
+
+.contenedor-mensaje .mensaje-yo .autor{
+    padding-bottom: 7px;
+    font-size: 17px;
+}
+
+.contenedor-mensaje .contenedor-estado{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-size: 12px;
+    color: #d1d0d0;
+    gap: 3px;
+}
+
+.contenedor-mensaje .contenedor-estado .estadoVisto svg{
+    color: #007bfc;
+}

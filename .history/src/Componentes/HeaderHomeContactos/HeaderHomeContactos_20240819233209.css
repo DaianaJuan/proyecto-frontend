@@ -1,0 +1,69 @@
+.contenedor-header-home nav {
+    background-color: #242626;#242626 ;
+    width: 100%;
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-image: url('../../../public/imagenes/stars.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor-header-home .flex-superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.contenedor-header-home .contenedor-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenedor-header-home .contenedor-icons button svg{
+    color:#ece378 ;
+}
+
+.contenedor-header-home .nombre-app {
+    font-family: 'StarWarsFont';
+    color: #FCC802;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.contenedor-header-home .flex-inferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+.contenedor-header-home .input-buscador {
+    background-color: #3a3b3b;
+    width: 100%;
+    height: 35px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+.contenedor-header-home .input-buscador input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0 10px;
+    color:#ece378 ;
+}
