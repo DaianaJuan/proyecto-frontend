@@ -1,6 +1,6 @@
 import { contactos } from '../data/contactosData';
 
-// Quería agregar contactos a último momento... Si los agregaba directo al array ppal no los tomaba
+// Quería agregar contactos a último momento... Si los agre
 const nuevosContactos = [ 
     {
             nombre: 'Chewbacca',

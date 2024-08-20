@@ -345,4 +345,110 @@ export const contactos = [
 ]
 
 
-
+const nuevosContactos 
+{
+        nombre: 'Chewbacca',
+        thumbnail: '/imagenes/contactos/Chewbacca.jpg',
+        ultima_conexion: 'hoy 08:45 a. m.',
+        id_autor: 8,
+        mensajes: [
+            {
+                autor: 'Yo',
+                contenido: 'Hola Chuy',
+                estado: 'visto',
+                fecha: '05/07/2024',
+                id: 1
+            },
+            {
+                autor: 'Yo',
+                contenido: 'Han me pasó tu número',
+                estado: 'visto',
+                fecha: '05/07/2024',
+                id: 2
+            },
+        ],
+        informacion:
+        {
+            telefono: '666-666-6666',
+            estado: 'En la peluquería',
+            id_info: 8
+        },
+    },
+    {
+        nombre: 'C-3PO Citripio',
+        thumbnail: '/imagenes/contactos/C3PO.jpg',
+        ultima_conexion: 'ayer',
+        id_autor: 9,
+        mensajes: [
+            {
+                autor: 'C-3PO Citripio',
+                contenido: '¡Oh, mis disculpas! Arturito, el noble R2-D2, me ha pedido que traduzca sus mensajes para ti. Como el protocolo lo dicta, estoy aquí para servir y traducir cualquier comunicación que necesites. ¿Cómo puedo asistirte hoy?',
+                estado: 'visto',
+                fecha: 'hoy 05:43 p. m.',
+                id: 1
+            },
+            {
+                autor: 'Yo',
+                contenido: 'Hola, Citripio. Sí, tenemos problemas de cominicarción',
+                estado: 'visto',
+                fecha: 'hoy 05:43 p. m.',
+                id: 2
+            },
+        ],
+        informacion:
+        {
+            telefono: '777-777-7777',
+            estado: 'En el mecánico',
+            id_info: 9
+        },
+    },
+    {
+        nombre: 'Luke Skywalker',
+        thumbnail: '/imagenes/contactos/Luke.jpg',
+        ultima_conexion: '09/07/2024',
+        id_autor: 10,
+        mensajes: [
+            {
+                autor: 'Luke Skywalker',
+                contenido: 'Hola, estás por ahí??',
+                estado: 'visto',
+                fecha: '09/07/2024',
+                id: 1
+            },
+            {
+                autor: 'Yo',
+                contenido: 'Hola Luke. Sí, qué pasó?',
+                estado: 'visto',
+                fecha: '09/07/2024',
+                id: 2
+            },
+            {
+                autor: 'Luke Skywalker',
+                contenido: 'Me lo dijo, me dijo: YO SOY TU PADRE. Cómo puede ser ese tipo mi padre?',
+                estado: 'visto',
+                fecha: '09/07/2024',
+                id: 3
+            },
+            {
+                autor: 'Yo',
+                contenido: 'Mmm, vas a tener un tiempito de terapia mepa...',
+                estado: 'visto',
+                fecha: '09/07/2024',
+                id: 4
+            },
+            {
+                autor: 'Luke Skywalker',
+                contenido: 'Estoy en eso. Tengo que ir a ver a Yoda cuando vuelva de sus vacaciones',
+                estado: 'visto',
+                fecha: '09/07/2024',
+                id: 3
+            },
+        ],
+        informacion:
+        {
+            telefono: '000-000-1111',
+            estado: 'En el psicólogo',
+            id_info: 10
+        },
+    },
+*/

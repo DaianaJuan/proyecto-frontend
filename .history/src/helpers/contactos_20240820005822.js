@@ -1,6 +1,6 @@
 import { contactos } from '../data/contactosData';
 
-// Quería agregar contactos a último momento... Si los agregaba directo al array ppal no los tomaba
+// Quería agregar contactos a último momento...
 const nuevosContactos = [ 
     {
             nombre: 'Chewbacca',
@@ -124,15 +124,15 @@ const nuevosContactos = [
 
 // Actualizo el array de contactos y guardo los cambios
 const actualizarContactos = () => {
-    // Agrego los nuevos contactos al array principal
+    // Agrega los nuevos contactos al array principal
     contactos.push(...nuevosContactos);
     console.log('Contactos actualizados:', contactos);
 
-    // Guardo los contactos actualizados en el almacenamiento local
+    // Guarda los contactos actualizados en el almacenamiento local
     guardarContacto(contactos);
 };
 
-// Llam0 a la función para actualizar los contactos
+// Llama a la función para actualizar los contactos
 actualizarContactos();
 
 /**
