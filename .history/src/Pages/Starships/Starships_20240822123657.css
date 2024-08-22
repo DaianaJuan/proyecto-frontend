@@ -1,0 +1,106 @@
+.contenedor-naves{
+    width: 100%;
+    color: white;
+    font-size: 19px; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.contenedor-naves .header-naves{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    height: 100px;
+}
+
+.contenedor-naves .header-naves h2{
+    font-family: 'StarWarsFont';
+    color: #FCC802;
+    font-size: 1rem;
+}
+
+.contenedor-naves .starship-list{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+ul {
+    list-style: none; 
+}
+
+.contenedor-naves .starship-list .starship-item{
+    background-color: #242626;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 8px;
+    font-size: 0.8rem;
+    width: 100%;
+
+}
+
+.contenedor-naves .starship-list .starship-item h3{
+    font-size: 1.1rem;
+    color: #ece378;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contenedor-naves .starship-list .starship-item p{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 650px){
+     /* STARSHIPS */
+
+    .contenedor-naves .header-naves h2 {
+        font-size: 1.6rem;
+    }
+
+    .contenedor-naves .starship-list .starship-item h3 {
+        font-size: 1.4rem;
+    }
+
+    .contenedor-naves .starship-list .starship-item p {
+        font-size: 1.1rem;
+    }
+
+    .contenedor-naves .starship-list .starship-item {
+        padding-left: 20px;
+    }
+
+    .contenedor-naves .header-naves svg {
+        font-size: 1.8rem;
+    }
+
+    .contenedor-naves .header-naves .flecha svg {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media screen and (min-width: 1400px) and (max-width: 2000px){
+    /* STARSHIPS */
+
+    .contenedor-naves .header-naves h2 {
+        font-size: 2rem;
+    }
+
+}
