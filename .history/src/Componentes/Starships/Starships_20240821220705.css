@@ -1,0 +1,11 @@
+.contenedor-naves{
+    width: 100%;
+    color: white;
+    font-size: 19px; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 270px;
+}

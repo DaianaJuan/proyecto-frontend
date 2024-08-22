@@ -1,0 +1,16 @@
+.contenedor-naves{
+    width: 100%;
+    color: white;
+    font-size: 19px; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.contenedor-naves h2{
+    font-family: 'StarWarsFont';
+    color: #FCC802;
+    font-size: 2.5rem;
+}

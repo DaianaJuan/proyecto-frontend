@@ -1,0 +1,40 @@
+.contenedor-naves{
+    width: 100%;
+    color: white;
+    font-size: 19px; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 270px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'StarWarsFont';
+    color: #FCC802;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.starship-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.starship-item {
+
+}
+
+.starship-item h3 {
+    margin-top: 0;
+}
+
+.starship-item p {
+    margin: 5px 0;
+}
+
+.starship-item strong {
+    color: #333;
+}

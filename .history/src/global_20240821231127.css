@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'StarWarsFont';
+    src: url('./fonts/Star%20Wars.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* MEDIA QUERY PARA PANTALLAS MENORES A 650PX */
+@media screen and (min-width: 650px) {
+
+    /* CONTACTOS */
+    .cont-img {
+        margin-right: 15px;
+    }
+
+    .cont-img img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .nombre-contacto {
+        font-size: 18px;
+    }
+
+    .ultimo-mensaje {
+        font-size: 16px;
+    }
+
+    .cont-contactos {
+        margin-bottom: 100px;
+    }
+
+    /* HEADER CHAT */
+
+    .contenedor-header .contenedor-nav {
+        height: 100px;
+    }
+
+    .contenedor-header .contenedor-nav .contenedor-izquierda {
+        width: 70%;
+    }
+
+    .contenedor-header .contenedor-nav .contenedor-izquierda .nombre {
+        text-transform: lowercase;
+        gap: 30px;
+        overflow: none;
+        text-overflow: none;
+        padding-left: 20px;
+        font-family: 'StarWarsFont';
+        font-size: 20px;
+        color: #ece378;
+    }
+
+    .contenedor-header .contenedor-nav .contenedor-izquierda .contenedor-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .contenedor-header .contenedor-nav .contenedor-derecha {
+        gap: 30px;
+    }
+
+    svg {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-header .contenedor-nav .contenedor-izquierda .flecha svg {
+        font-size: 2.5rem;
+    }
+
+    .flecha-volver svg {
+        font-size: 2.5rem;
+    }
+
+    /* FOOTER CHAT */
+
+    .contenedor-footer .contenedor-izquierda {
+        height: 70px;
+    }
+
+    .contenedor-footer .contenedor-izquierda svg {
+        font-size: 1.7rem;
+    }
+
+    .contenedor-footer .btn-enviar {
+        width: 70px;
+        height: 70px;
+    }
+
+    .contenedor-footer .btn-enviar svg {
+        font-size: 1.8rem;
+    }
+
+    /* LISTA MENSAJES */
+
+    .contenedor-lista-mensajes {
+        margin-top: 100px;
+    }
+
+    /* MENSAJES */
+
+    .contenedor-mensaje .mensaje-yo {
+        margin-left: 29%;
+    }
+
+    /* STARSHIPS */
+
+    .contenedor-naves .header-naves h2{
+        font-size: 1.6rem;
+    }
+
+    .contenedor-naves .starship-list .starship-item h3{
+        font-size: 1.4rem;
+    }
+
+    .contenedor-naves .starship-list .starship-item p{
+        font-size: 1.1rem;
+    }
+
+    .contenedor-naves .starship-list .starship-item{
+        padding-left: 20px;
+    }
+
+    .contenedor-naves .header-naves svg{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-naves .header-naves .flecha svg{
+        font-size: 2.5rem;
+    }
+}
+
+/* MEDIA QUERY PARA PANTALLAS MAYORES A 1050PX */
+@media screen and (min-width: 1050px) {
+
+    /* HEADER HOME CONTACTOS */
+
+    .contenedor-header-home .nombre-app {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+    .contenedor-header-home .input-buscador {
+        background-color: #242626;
+        height: 45px;
+        padding: 0 20px;
+    }
+
+    .contenedor-header-home nav {
+        background-image: url('../../../public/imagenes/stars.jpg');
+        background-repeat: repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .contenedor-header-home .contenedor-icons{
+        gap: 50px;
+    }
+
+    .dropdown-content a{
+        padding: 12px 16px;
+        font-size: 1.1rem;
+    }
+
+    /* CONTACTOS */
+
+    .contacto-link {
+        gap: 20px;
+    }
+
+    .cont-contacto {
+        padding: 7px;
+    }
+
+    .cont-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .flex-info-contacto {
+        width: 90%;
+        align-items: space-between;
+    }
+
+    .cont-contacto .info-contacto .nombre-contacto {
+        font-size: 1.3rem;
+    }
+
+    .cont-contacto .info-contacto .ultima-conexion {
+        color: #a3a3a3;
+        font-size: 1rem;
+    }
+
+    .cont-contacto .ultimo-mensaje {
+        padding-top: 20px;
+        font-size: 1.2rem;
+    }
+
+    /* LISTA CONTACTOS */
+
+    .cont-contactos {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        height: 100vh;
+        padding: 30px;
+    }
+
+    /* CONTACTOS */
+
+    .cont-contacto .contacto-link .cont-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cont-contacto .contacto-link .flex-info-contacto .nombre-contacto {
+        font-size: 1.3rem;
+    }
+
+    .cont-contacto .contacto-link .flex-info-contacto .ultimo-mensaje {
+        font-size: 1.1rem;
+    }
+
+    .cont-contacto .contacto-link .flex-info-contacto .ultima-conexion {
+        font-size: 1rem;
+    }
+
+    /* FOOTER HOME CONTACTOS */
+
+    .footer-home .contenedor-botones {
+        justify-content: space-around;
+    }
+
+    /* MENSAJES */
+
+    .contenedor-mensaje {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    /* LISTA MENSAJES */
+
+    .contenedor-lista-mensajes {
+        gap: 15px;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 2000px) {
+
+
+    /* HEADER HOME CONTACTOS */
+
+    .contenedor-header-home nav {
+        background-image: url('../public/imagenes/cosmos2.jpg');
+        background-color: #242626 ;
+    }
+
+    .contenedor-header-home .input-buscador {
+        background-color:  #ece378;
+    }
+
+    .contenedor-header-home .input-buscador input{
+        color: #242626;
+    }
+
+    .contenedor-header-home .nombre-app {
+        font-size: 40px;
+        padding-left: 30px;
+    }
+    
+    .contenedor-header-home .contenedor-icons button svg{
+        font-size: 2rem;
+    }
+
+    .dropdown-content a{
+        padding: 14px 18px;
+        font-size: 1.2rem;
+    }
+
+    /* CONTACTOS */
+
+    .cont-contactos {
+        padding: 50px;
+    }
+
+    /* LISTA MENSAJES */
+
+    .contenedor-lista-mensajes {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /* HEADER CHAT */
+
+    .contenedor-header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* MENSAJES */
+
+    .contenedor-mensaje .contenedor-mensaje-otro .autor {
+        font-size: 18px;
+    }
+
+    /* HEADER INFO */
+
+    .contenedor-header-informacion {
+        background-image: url('../public/imagenes/cosmos2.jpg');
+        background-color: #242626 ;
+    }
+
+    /* STARSHIPS */
+
+    .contenedor-naves .header-naves h2{
+        font-size: 2rem;
+    }
+    
+
+}
