@@ -83,14 +83,3 @@ input:focus {
     margin-right: 10px;
 }
 
-.emoji-picker {
-    position: absolute;
-    bottom: 60px; 
-    left: 10px; 
-    z-index: 1000; 
-    border: 1px solid #444242b4;
-    border-radius: 5px;
-    width: 300px; 
-    height: 200px; 
-    overflow: auto;
-}

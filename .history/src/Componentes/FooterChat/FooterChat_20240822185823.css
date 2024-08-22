@@ -85,12 +85,12 @@ input:focus {
 
 .emoji-picker {
     position: absolute;
-    bottom: 60px; 
-    left: 10px; 
-    z-index: 1000; 
-    border: 1px solid #444242b4;
+    bottom: 60px; /* Ajusta la posición según el diseño */
+    left: 10px; /* Ajusta la posición según el diseño */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+    background: #ffffff98;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    width: 300px; 
-    height: 200px; 
-    overflow: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+

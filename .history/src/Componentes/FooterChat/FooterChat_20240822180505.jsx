@@ -3,7 +3,7 @@ import { MdOutlineEmojiEmotions } from "react-icons/md";
 import { BsPaperclip } from "react-icons/bs";
 import { MdOutlineCameraAlt } from "react-icons/md";
 import { IoIosSend } from "react-icons/io";
-import EmojiPicker from 'emoji-picker-react';
+import E
 import './FooterChat.css'
 
 /**
@@ -15,15 +15,6 @@ import './FooterChat.css'
  * @return {JSX.Element} El elemento JSX que representa el pie de página del chat.
  */
 const FooterChat = ({  formMensaje, setFormMensaje, handleSubmit}) => {
-
-    const [showEmojiPicker, setShowEmojiPicker] = useState(false);
-
-    // Función para manejar el clic en un emoji
-    // NO ENVIA EMOJIS, SOLO LOS MUESTRA. Prove con un codigo para enviarlos, pero me aparecía undefined.
-    // Lo deje, por las dudas que pueda resolverlo
-    const handleEmojiClick = (emoji) => {
-        console.log(emoji)
-    }
 
     /**
      * Actualiza el estado del formulario de mensaje según el cambio en el campo de texto.
@@ -39,18 +30,7 @@ const FooterChat = ({  formMensaje, setFormMensaje, handleSubmit}) => {
     return (
         <form className='contenedor-footer' onSubmit={handleSubmit}>
             <div className='contenedor-izquierda'>
-
-            <button type='button' onClick={() => setShowEmojiPicker(!showEmojiPicker)}>
-                    <MdOutlineEmojiEmotions />
-            </button>
-                {showEmojiPicker && (
-                    <div className='emoji-picker'>
-                        <EmojiPicker
-                            onEmojiClick={handleEmojiClick}
-                        />
-                    </div>
-                )}
-                
+                <a href="#"><MdOutlineEmojiEmotions /></a>
                 <input
                     type='text'
                     name='contenido'

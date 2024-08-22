@@ -19,8 +19,7 @@ const FooterChat = ({  formMensaje, setFormMensaje, handleSubmit}) => {
     const [showEmojiPicker, setShowEmojiPicker] = useState(false);
 
     // Función para manejar el clic en un emoji
-    // NO ENVIA EMOJIS, SOLO LOS MUESTRA. Prove con un codigo para enviarlos, pero me aparecía undefined.
-    // Lo deje, por las dudas que pueda resolverlo
+    // NO ENVIA EMOJIS, SOLO LOS MUESTRA
     const handleEmojiClick = (emoji) => {
         console.log(emoji)
     }
@@ -46,7 +45,7 @@ const FooterChat = ({  formMensaje, setFormMensaje, handleSubmit}) => {
                 {showEmojiPicker && (
                     <div className='emoji-picker'>
                         <EmojiPicker
-                            onEmojiClick={handleEmojiClick}
+                            onEmojiClick={(e, emojiObject) => handleEmojiClick(emojiObject.emoji)} 
                         />
                     </div>
                 )}

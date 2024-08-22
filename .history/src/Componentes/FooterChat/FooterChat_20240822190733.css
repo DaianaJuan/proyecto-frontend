@@ -88,9 +88,10 @@ input:focus {
     bottom: 60px; 
     left: 10px; 
     z-index: 1000; 
+    background-color: #383737;
     border: 1px solid #444242b4;
     border-radius: 5px;
-    width: 300px; 
-    height: 200px; 
+    width: 300px; /* Ajusta el ancho del contenedor */
+    height: 200px; /* Ajusta la altura del contenedor */
     overflow: auto;
 }

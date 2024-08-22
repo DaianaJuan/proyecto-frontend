@@ -20,7 +20,6 @@ const FooterChat = ({  formMensaje, setFormMensaje, handleSubmit}) => {
 
     // Función para manejar el clic en un emoji
     // NO ENVIA EMOJIS, SOLO LOS MUESTRA. Prove con un codigo para enviarlos, pero me aparecía undefined.
-    // Lo deje, por las dudas que pueda resolverlo
     const handleEmojiClick = (emoji) => {
         console.log(emoji)
     }

@@ -90,7 +90,7 @@ input:focus {
     z-index: 1000; 
     border: 1px solid #444242b4;
     border-radius: 5px;
-    width: 300px; 
+    width: 300px; /* Ajusta el ancho del contenedor */
     height: 200px; 
     overflow: auto;
 }
