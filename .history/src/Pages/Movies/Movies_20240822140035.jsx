@@ -38,6 +38,11 @@ const Movies = () => {
                 {movies.map(movie => (
                     <li key={movie.episode_id} className='movie-item'>
                         <h3>{movie.title}</h3>
+                        <img
+                            src={movieImages[movie.episode_id]} 
+                            alt={movie.title}
+                            className='movie-image'
+                        />
                         <p><strong>Director:</strong> {movie.director}</p>
                         <p><strong>Productor:</strong> {movie.producer}</p>
                         <p><strong>Fecha de Lanzamiento:</strong> {movie.release_date}</p>

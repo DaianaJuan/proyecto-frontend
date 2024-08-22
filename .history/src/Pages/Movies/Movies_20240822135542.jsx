@@ -6,6 +6,15 @@ import { GiFilmSpool } from "react-icons/gi";
 
 const Movies = () => {
 
+    const movieImages = {
+        1: '/imagenes/movies/NewHopeCartel1.jpg',
+        2: '/imagenes/movies/ElImperioContraatacaCartel2.jpg',
+        3: '/imagenes/movies/ElRetornoDelJediCartel3.jpg',
+        4: '',
+        5: '/imagenes/movies/ElAtaqueDeLosClonesCartel5.jpg',
+        6: '/imagenes/movies/Episodio3Cartel6.jpg',
+    }
+
     const [movies, setMovies] = useState([])
     const [loading, setLoading] = useState(true)
     
@@ -38,6 +47,11 @@ const Movies = () => {
                 {movies.map(movie => (
                     <li key={movie.episode_id} className='movie-item'>
                         <h3>{movie.title}</h3>
+                        <img
+                            src={movieImages[movie.episode_id]} 
+                            alt={movie.title}
+                            className='movie-image'
+                        />
                         <p><strong>Director:</strong> {movie.director}</p>
                         <p><strong>Productor:</strong> {movie.producer}</p>
                         <p><strong>Fecha de Lanzamiento:</strong> {movie.release_date}</p>
