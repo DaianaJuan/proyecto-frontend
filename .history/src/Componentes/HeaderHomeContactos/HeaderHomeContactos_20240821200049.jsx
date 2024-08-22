@@ -42,14 +42,14 @@ const HeaderHomeContactos = ({ search, onSearchChange }) => {
 
                         <button><MdOutlineCameraAlt /></button>
 
-                        <div className={`dropdown-container ${isOpen ? 'open' : ''}`}>
+                        <div className={`dropdown-container ${isOpen ? 'active' : ''}`}>
                             <button className='dropdown-button' onClick={toogleDropdown}>
                                 <BsThreeDotsVertical />
                             </button>
                             <div className='dropdown-content'>
                                 <a href="#">Naves vinculadas</a>
                                 <a href="#">Mensajes destacados</a>
-                                <a href="#">Planetas en conección</a>
+                                <a href="#">Planetas</a>
                             </div>
                         </div>
 

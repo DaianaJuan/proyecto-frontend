@@ -27,11 +27,7 @@ const HeaderHomeContactos = ({ search, onSearchChange }) => {
         }
     }
     
-    const [isOpen, setIsOpen] = useState(false)
 
-    const toogleDropdown = () => {
-        setIsOpen(!isOpen)
-    }
 
     return (
         <header className='contenedor-header-home'>
@@ -39,20 +35,8 @@ const HeaderHomeContactos = ({ search, onSearchChange }) => {
                 <div className='flex-superior'>
                     <h1 className='nombre-app'>StarWars <br />Chat</h1>
                     <div className='contenedor-icons'>
-
                         <button><MdOutlineCameraAlt /></button>
-
-                        <div className={`dropdown-container ${isOpen ? 'open' : ''}`}>
-                            <button className='dropdown-button' onClick={toogleDropdown}>
-                                <BsThreeDotsVertical />
-                            </button>
-                            <div className='dropdown-content'>
-                                <a href="#">Naves vinculadas</a>
-                                <a href="#">Mensajes destacados</a>
-                                <a href="#">Planetas en conección</a>
-                            </div>
-                        </div>
-
+                        
                     </div>
                 </div>
                 <div className='flex-inferior'>

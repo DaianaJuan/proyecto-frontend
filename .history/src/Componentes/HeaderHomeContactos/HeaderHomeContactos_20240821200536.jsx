@@ -49,7 +49,7 @@ const HeaderHomeContactos = ({ search, onSearchChange }) => {
                             <div className='dropdown-content'>
                                 <a href="#">Naves vinculadas</a>
                                 <a href="#">Mensajes destacados</a>
-                                <a href="#">Planetas en conección</a>
+                                <a href="#">Planetas</a>
                             </div>
                         </div>
 

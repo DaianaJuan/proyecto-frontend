@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './HeaderHomeContactos.css'
 import { MdOutlineCameraAlt } from "react-icons/md";
 import { BsThreeDotsVertical } from "react-icons/bs";
@@ -26,12 +26,6 @@ const HeaderHomeContactos = ({ search, onSearchChange }) => {
             onSearchChange(e.target.value);
         }
     }
-    
-    const [isOpen, setIsOpen] = useState(false)
-
-    const toogleDropdown = () => {
-        setIsOpen(!isOpen)
-    }
 
     return (
         <header className='contenedor-header-home'>
@@ -39,20 +33,14 @@ const HeaderHomeContactos = ({ search, onSearchChange }) => {
                 <div className='flex-superior'>
                     <h1 className='nombre-app'>StarWars <br />Chat</h1>
                     <div className='contenedor-icons'>
-
                         <button><MdOutlineCameraAlt /></button>
-
-                        <div className={`dropdown-container ${isOpen ? 'open' : ''}`}>
-                            <button className='dropdown-button' onClick={toogleDropdown}>
-                                <BsThreeDotsVertical />
-                            </button>
-                            <div className='dropdown-content'>
-                                <a href="#">Naves vinculadas</a>
-                                <a href="#">Mensajes destacados</a>
-                                <a href="#">Planetas en conección</a>
-                            </div>
-                        </div>
-
+                        <button c><BsThreeDotsVertical />
+                            <ul className='desplegable'>
+                                <li><a href="#">Naves vinculadas</a></li>
+                                <li><a href="#">Mensajes destacados</a></li>
+                                <li><a href="#">Ajustes</a></li>
+                            </ul>
+                        </button>
                     </div>
                 </div>
                 <div className='flex-inferior'>

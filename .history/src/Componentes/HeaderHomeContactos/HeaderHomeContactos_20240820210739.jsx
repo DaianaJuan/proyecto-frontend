@@ -26,12 +26,12 @@ const HeaderHomeContactos = ({ search, onSearchChange }) => {
             onSearchChange(e.target.value);
         }
     }
-    
-    const [isOpen, setIsOpen] = useState(false)
 
-    const toogleDropdown = () => {
-        setIsOpen(!isOpen)
-    }
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
 
     return (
         <header className='contenedor-header-home'>
@@ -39,20 +39,20 @@ const HeaderHomeContactos = ({ search, onSearchChange }) => {
                 <div className='flex-superior'>
                     <h1 className='nombre-app'>StarWars <br />Chat</h1>
                     <div className='contenedor-icons'>
-
                         <button><MdOutlineCameraAlt /></button>
-
-                        <div className={`dropdown-container ${isOpen ? 'open' : ''}`}>
-                            <button className='dropdown-button' onClick={toogleDropdown}>
+                        <div className="dropdown">
+                            <button id="btn-desplegable" onClick={toggleMenu}>
                                 <BsThreeDotsVertical />
                             </button>
-                            <div className='dropdown-content'>
-                                <a href="#">Naves vinculadas</a>
-                                <a href="#">Mensajes destacados</a>
-                                <a href="#">Planetas en conección</a>
-                            </div>
+                            {isOpen && (
+                                <ul>
+                                    <li><a href="#">Naves vinculadas</a></li>
+                                    <li><a href="#">Mensajes destacados</a></li>
+                                    <li><a href="#">Ajustes</a></li>
+                                </ul>
+                            )}
                         </div>
-
+    </div>
                     </div>
                 </div>
                 <div className='flex-inferior'>

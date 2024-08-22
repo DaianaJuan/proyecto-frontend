@@ -140,10 +140,7 @@
         gap: 50px;
     }
 
-    .dropdown-content a{
-        padding: 12px 16px;
-        font-size: 1.1rem;
-    }
+    
 
     /* CONTACTOS */
 
@@ -253,11 +250,6 @@
     
     .contenedor-header-home .contenedor-icons button svg{
         font-size: 2rem;
-    }
-
-    .dropdown-content a{
-        padding: 14px 18px;
-        font-size: 1.2rem;
     }
 
     /* CONTACTOS */
