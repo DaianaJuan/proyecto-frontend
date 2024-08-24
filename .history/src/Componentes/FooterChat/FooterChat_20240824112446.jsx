@@ -35,8 +35,6 @@ const FooterChat = ({  formMensaje, setFormMensaje, handleSubmit}) => {
                 )}
     */
 
-    //onClick={() => setShowEmojiPicker(!showEmojiPicker)}
-
     /**
      * Actualiza el estado del formulario de mensaje según el cambio en el campo de texto.
      *
@@ -51,7 +49,10 @@ const FooterChat = ({  formMensaje, setFormMensaje, handleSubmit}) => {
     return (
         <form className='contenedor-footer' onSubmit={handleSubmit}>
             <div className='contenedor-izquierda'>
-            <button type='button' ><MdOutlineEmojiEmotions /></button>
+
+            <button type='button' >
+                    <MdOutlineEmojiEmotions />
+            </button>
                 <input
                     type='text'
                     name='contenido'

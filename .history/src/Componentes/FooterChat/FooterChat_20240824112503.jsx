@@ -51,7 +51,10 @@ const FooterChat = ({  formMensaje, setFormMensaje, handleSubmit}) => {
     return (
         <form className='contenedor-footer' onSubmit={handleSubmit}>
             <div className='contenedor-izquierda'>
-            <button type='button' ><MdOutlineEmojiEmotions /></button>
+
+            <button type='button' >
+                    <MdOutlineEmojiEmotions />
+            </button>
                 <input
                     type='text'
                     name='contenido'

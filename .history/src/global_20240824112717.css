@@ -228,16 +228,11 @@
         margin-bottom: 80px;
     }
 
-    .contenedor-chat {
-        background-image: none;
-        background-color: #0000008a;
-    }
-
-    /* FOOTER CHAT */
-    .contenedor-footer {
-        background-image: none;
-        background-color: #00000000;
-    }
+        /* FOOTER CHAT */
+        .contenedor-footer{
+            background-image: none;
+            background-color:  #00000000;
+        }
 }
 
 @media screen and (min-width: 1400px) and (max-width: 2000px) {
