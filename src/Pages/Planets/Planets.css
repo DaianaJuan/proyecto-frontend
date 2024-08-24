@@ -75,15 +75,15 @@ ul {
         font-size: 1.6rem;
     }
 
-    .contenedor-planetas .starship-list .planet-item h3 {
+    .contenedor-planetas .planet-list .planet-item h3 {
         font-size: 1.4rem;
     }
 
-    .contenedor-planetas .starship-list .planet-item p {
+    .contenedor-planetas .planet-list .planet-item p {
         font-size: 1.1rem;
     }
 
-    .contenedor-planetas .starship-list .planet-item {
+    .contenedor-planetas .planet-list .planet-item {
         padding-left: 20px;
     }
 

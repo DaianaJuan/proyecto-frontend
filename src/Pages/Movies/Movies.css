@@ -98,10 +98,6 @@ ul {
     .contenedor-movies .header-movies .flecha svg {
         font-size: 2.5rem;
     }
-
-    .movie-image {
-        width: 150px; 
-    }
 }
 
 
@@ -111,8 +107,5 @@ ul {
     .contenedor-movies .header-movies h2 {
         font-size: 2rem;
     }
-
-    .movie-image {
-        width: 200px; 
-    }
+    
 }
