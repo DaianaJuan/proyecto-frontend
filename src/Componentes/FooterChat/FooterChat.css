@@ -11,8 +11,7 @@
     justify-content: space-around;
     margin: 5px;
     margin-top: 0;
-    background-color: black;
-    background-image: url('../../../public/imagenes/estrellas.jpg');
+    background-color: transparent;
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
